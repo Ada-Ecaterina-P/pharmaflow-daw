@@ -1,0 +1,32 @@
+# Sistema operativo macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Variables de entorno y secretos (RGPD / Seguridad)
+.env
+.env.local
+.env.*.local
+
+# IDEs y editores
+.idea/
+*.iml
+.vscode/*
+!.vscode/extensions.json
+
+# Node.js / Frontend (React + Vite)
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Java / Backend (Spring Boot)
+target/
+!.mvn/wrapper/maven-wrapper.jar
+*.jar
+*.war
+*.log
+
+# Docker volúmenes locales temporales
+*.pid
