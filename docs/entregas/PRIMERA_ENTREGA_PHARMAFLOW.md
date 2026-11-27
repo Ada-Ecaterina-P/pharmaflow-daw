@@ -25,6 +25,7 @@
 
 ## Índice de Contenidos
 
+- [Índice de Contenidos](#índice-de-contenidos)
 - [1. Resumen o Introducción](#1-resumen-o-introducción)
   - [1.1. Presentación del proyecto y finalidad](#11-presentación-del-proyecto-y-finalidad)
   - [1.2. Justificación de la elección del tema](#12-justificación-de-la-elección-del-tema)
@@ -66,8 +67,6 @@ PharmaFlow se estructura en cinco módulos funcionales interconectados que cubre
 4. **Integración con la API CIMA (AEMPS) y Asistencia Clínica con IA:** Conexión directa con la base de datos oficial de la Agencia Española de Medicamentos y Productos Sanitarios para consultar fichas técnicas, prospectos en PDF y estado de desabastecimiento, complementada con un asistente inteligente que resume puntos clave de posología y advertencias para agilizar la explicación al paciente en mostrador.
 5. **Punto de Venta (POS Web) y Dashboard Analítico:** Interfaz ágil de caja registradora web con aplicación automática de descuentos según el cliente seleccionado, y un panel de dirección con gráficos de facturación diaria, productos más vendidos y balance global de deudas.
 
-<div class="salto-pagina"></div>
-
 ## 2. Planteamiento del Problema o Necesidad
 
 ### 2.1. Situación o contexto actual
@@ -95,8 +94,6 @@ Tras analizar la operativa diaria de una oficina de farmacia, se identifican cin
 * **Personal de Almacén / Logística:** Encargado de la recepción de pedidos y albaranes de cooperativas farmacéuticas, control de entradas por Código Nacional, lote y caducidad, y seguimiento de faltas o stock bajo mínimos. *(Por seguridad, este perfil tiene restringido el acceso a ventas y datos financieros de pacientes).*
 
 De manera indirecta, el sistema beneficia también al **cliente o paciente final** de la farmacia (especialmente pacientes crónicos mayores de 65 años y familias), quien recibe una atención más rápida, descuentos aplicados con transparencia y avisos oportunos sobre sus encargos y promociones.
-
-<div class="salto-pagina"></div>
 
 ## 3. Objetivos del Proyecto
 
