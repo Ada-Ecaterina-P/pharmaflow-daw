@@ -67,6 +67,14 @@ PharmaFlow se estructura en cinco módulos funcionales interconectados que cubre
 4. **Integración con la API CIMA (AEMPS) y Asistencia Clínica con IA:** Conexión directa con la base de datos oficial de la Agencia Española de Medicamentos y Productos Sanitarios para consultar fichas técnicas, prospectos en PDF y estado de desabastecimiento, complementada con un asistente inteligente que resume puntos clave de posología y advertencias para agilizar la explicación al paciente en mostrador.
 5. **Punto de Venta (POS Web) y Dashboard Analítico:** Interfaz ágil de caja registradora web con aplicación automática de descuentos según el cliente seleccionado, y un panel de dirección con gráficos de facturación diaria, productos más vendidos y balance global de deudas.
 
+En el siguiente esquema se representa la visión general del sistema, diferenciando los tres perfiles de acceso, el núcleo prioritario de la aplicación (MVP), los módulos de ampliación opcional y las conexiones externas:
+
+<div class="diagrama-caja">
+
+![Arquitectura general de PharmaFlow](../diagramas/arquitectura_general.drawio.png)
+
+</div>
+
 ## 2. Planteamiento del Problema o Necesidad
 
 ### 2.1. Situación o contexto actual
